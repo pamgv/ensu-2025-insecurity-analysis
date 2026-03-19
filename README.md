@@ -41,6 +41,15 @@ Each row represents a respondent and includes:
 
 The repository includes precomputed outputs such as summary tables and visualizations to allow quick validation of results without running the full pipeline.
 
+---
+
+## Dashboard
+
+Link to Looker Studio dashboard:
+https://lookerstudio.google.com/s/sL4Og72Runo
+
+---
+
 ## Important Note on Data Structure
 
 The original test description referenced datasets with **free-text fields**. However, the ENSU dataset is fully structured and does not include open text.
