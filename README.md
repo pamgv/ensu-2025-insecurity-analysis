@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project presents an analytical study of the **ENSU 2025 (Encuesta Nacional de Seguridad Pública Urbana)** dataset, using all four quarterly releases.
+This project presents an analytical study of the ENSU 2025 (Encuesta Nacional de Seguridad Pública Urbana) dataset, using all four quarterly releases.
 
-The objective is to identify patterns in **perceived insecurity across urban areas in Mexico**, using structured survey data and transforming it into interpretable metrics and actionable insights.
+The objective is to identify patterns in perceived insecurity across urban areas in Mexico, using structured survey data and transforming it into interpretable metrics and actionable insights.
 
 ---
 
@@ -52,7 +52,7 @@ https://lookerstudio.google.com/s/sL4Og72Runo
 
 ## Important Note on Data Structure
 
-The original test description referenced datasets with **free-text fields**. However, the ENSU dataset is fully structured and does not include open text.
+The original test description referenced datasets with free-text fields. However, the ENSU dataset is fully structured and does not include open text.
 
 Therefore, the analytical approach was adapted from NLP-based methods to:
 
@@ -84,7 +84,7 @@ The analysis was developed through the following steps:
 
 ## Feature Selection
 
-Although **127 common variables** were identified across quarters, only a subset of **31 variables** was selected.
+Although 127 common variables were identified across quarters, only a subset of 31 variables was selected.
 
 The selection focused on:
 
@@ -109,7 +109,7 @@ During validation, it was identified that several perception variables (`BP1_2_*
 
 Initially, these values were incorrectly treated as valid insecurity levels, which inflated the results.
 
-They were explicitly removed from the analysis to ensure that the **insecurity score reflects only valid responses**.
+They were explicitly removed from the analysis to ensure that the insecurity score reflects only valid responses.
 
 ---
 
@@ -142,12 +142,12 @@ Represents confidence in security-related institutions.
 
 ## Key Insights
 
-- Perceived insecurity is **significant but not dominant**, with ~39% in the high category
-- The phenomenon is **heterogeneous**, not uniform across the population
-- A **slight upward trend** is observed across 2025
-- **Women consistently report higher insecurity than men**
-- Insecurity is **geographically concentrated** in specific cities
-- Clustering reveals **distinct perception profiles**, not a single pattern
+- Perceived insecurity is significant but not dominant, with ~39% in the high category
+- The phenomenon is heterogeneous, not uniform across the population
+- A slight upward trend is observed across 2025
+- Women consistently report higher insecurity than men
+- Insecurity is geographically concentrated in specific cities
+- Clustering reveals distinct perception profiles, not a single pattern
 
 ---
 
