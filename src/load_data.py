@@ -45,6 +45,6 @@ def concat_quarters(dfs: dict) -> pd.DataFrame:
 
 
 def get_common_columns(dfs: dict) -> list:
-    #Get the intersection of columns across all quarterly dataframes.
+    
     common_cols = set.intersection(*(set(df.columns) for df in dfs.values()))
     return sorted(common_cols)
